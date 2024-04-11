@@ -24,7 +24,7 @@ const TodoList = () => {
             .catch((error) => console.error(error));
     }
 
-    
+
     return (
         <div className="containerPrincipal">
             <div className="container">
@@ -67,8 +67,8 @@ const TodoList = () => {
                     </input>
 
                     {misTareas.map((item, index) => (
-                        <div className="tarea">
-                            <li key={index}>
+                        <div className="tarea" key={index}>
+                            <li>
                                 <span className="escritoTarea">{item.label}</span>
 
                                 <i
