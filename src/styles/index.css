@@ -1,12 +1,77 @@
+body {
+    background: black;
+}
 
-/* 
+.containerPrincipal {
+    background: white;
+    width: 700px;
+    min-height: 700px;
+    height: auto;
+    margin-bottom: 50px;
+    border-radius: 12px;
+    margin-top: 150px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container {
+    background: white;  
+    width: 600px;
+    min-height: 600px;
+    height: auto;
+    border-radius: 12px;
+}
 
-*/
+h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 30px;
+}
+
+ul li{
+    border: 1px solid rgb(172, 169, 169); 
+    font-size: 30px;
+    
+}
+
+.agregarTarea {
+    font-size: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.icono-borrar {
+    float: right;
+    margin-right: 10px;
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.tarea {
+    background: rgb(248, 246, 246);
+}
+
+.escritoTarea{
+    margin-left: 10px;
+    word-wrap: break-word;  
+}
+
+.contenedorTasks {
+    margin-left: 32px;
+    border: 1px solid rgb(201, 199, 199);
+    margin-top: -18px;
+    padding: 5px;
+}
+
+.contenedorTasks1 {
+    border: 1px solid rgb(161, 160, 160);
+    height: 7px;
+    width: 532px;
+    margin-left: 38px;
+}
+
+.contenedorTasks2 {
+    border: 1px solid rgb(161, 160, 160);
+    margin-left: 34px;
+    height: 7px;
+    width: 540px;
+}
