@@ -38,13 +38,23 @@ ul li{
     margin-top: 10px;
 }
 
-.icono-borrar {
+.icono-editar{
     float: right;
-    margin-right: 10px;
+    margin-right: 30px;
     margin-top: 12px;
     cursor: pointer;
     font-size: 20px;
 }
+
+.icono-borrar {
+    float: right;
+    margin-right: 30px;
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
 
 .tarea {
     background: rgb(248, 246, 246);
